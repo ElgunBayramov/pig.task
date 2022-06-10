@@ -1,0 +1,96 @@
+*{
+    margin:0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.head{
+   width: 200px;
+   height: 200px;
+   margin-top: 20px;
+   border-radius: 50%;
+   background-color: #ffc0cf;
+   position: relative;
+   border: 5px solid black;
+}
+.ear.left{
+    width: 50px;
+    height: 50px;
+    background-color: #ffc0cf;
+    border-radius: 50%;
+   position: relative;
+   border: 5px solid black;
+    z-index: -1;
+    margin-top: -50px;
+}
+.ear.right{
+    width: 50px;
+    height: 50px;
+    background-color: #ffc0cf;
+    border-radius: 50%;
+   position: relative;
+   border: 5px solid black;
+    z-index: -1;
+    margin-left: 140px;
+    margin-top: -50;
+}
+.eye.left{
+    width: 50px;
+    height: 50px;
+    background-color: white;
+    border-radius: 50%;
+   position: absolute;
+   top: 40px;
+   left: 30px;
+   right: 30px;
+   border: 2px solid black;
+   color: white;
+}
+.eye.right{
+    width: 50px;
+    height: 50px;
+    background-color: white;
+    border-radius: 50%;
+   position: absolute;
+   top: 40px;
+   left: 103px;
+   right: 30px;
+   border: 2px solid black;
+   color: white;
+}
+.pupil{
+    width: 50%;
+    height: 50%;
+    border-radius: 50%;
+    background-color: black;
+    position: absolute;
+    top: 28%;
+    left: 28%;
+}
+.nose{
+    width: 100px;
+    height: 60px;
+    position: absolute;
+    bottom: 30px;
+    border-radius: 35%;
+    background-color: #f57187;
+    left: 43px;
+    border: 2px solid black;
+}
+.nostril.left{
+    width: 25%;
+    height: 50%;
+    position: absolute;
+    border-radius: 50%;
+    background-color: black;
+    left: 14px;
+    top: 14px;
+}
+.nostril.right{
+    width: 25%;
+    height: 50%;
+    position: absolute;
+    border-radius: 50%;
+    background-color: black;
+    left: 60px;
+    top: 14px;
+}
